@@ -12,6 +12,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
    font-weight: 700;
+   cursor: pointer;
 }
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -20,6 +21,9 @@
 header{
     background-color: rgba(255, 248, 243, 1);
     padding-top: 50px;
+    background: url(./images/developer.png), url(./images/header_bg.png), rgba(255, 248, 243, 1);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
 nav{
     width: 71%;
@@ -48,4 +52,40 @@ font-weight: 800;
     color:  rgba(71, 71, 71, 1);
     text-decoration: none;
 
+}
+
+#banner{
+    
+    margin: 47px 38px 0px 230px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width:585px ;
+}
+.banner-content h2{
+    font-size:45px ;
+    font-weight: 600;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 5px;
+
+}
+.banner-content h1{
+    color: var(--Dark 01, rgba(24, 24, 24, 1));
+    font-style: Bold;
+font-size: 85px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.banner-content p{
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 30px;
+}
+.banner-image img{
+    max-width: 585px;
+vertical-align: middle;
 }
