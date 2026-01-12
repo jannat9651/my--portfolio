@@ -14,6 +14,10 @@
    font-weight: 700;
    cursor: pointer;
 }
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -88,4 +92,39 @@ margin-bottom: 30px;
 .banner-image img{
     max-width: 585px;
 vertical-align: middle;
+}
+#about{
+padding-top: 130px;
+}
+ .about-container{
+    width:71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(255, 248, 243, 1);
+    padding: 131px 157px;
+}
+.section-heading h2{
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info-card p{
+color: #757575;
+font-size: 20px;
+line-height: 30px;
+}
+.info-card h4{
+    color: #474747;
+    font-size: 20px;
 }
